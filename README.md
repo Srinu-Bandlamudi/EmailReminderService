@@ -18,6 +18,20 @@
      EXCHANGE_NAME=AIRLINE_BOOKING
      REMINDER_BINDING_KEY=REMINDER_SERVICE
      ```
+    - Inside the `src/config` folder, create a file `config.json` with the following content:
+
+     ```json
+     {
+       "development": {
+         "username": "<YOUR_USER_NAME>",
+         "password": "<YOUR_DB_PASSWORD>",
+         "database": "REMINDER_DB_DEV",
+         "host": "127.0.0.1",
+         "dialect": "mysql"
+       }
+     }
+     
+     ```
 
 4. **Database Setup**
    - Once you've added your DB config as listed above, navigate to the `src` folder from your terminal and execute:
