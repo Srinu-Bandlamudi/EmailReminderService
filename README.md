@@ -3,7 +3,7 @@
 ## Project Setup
 
 1. **Clone the project on your local machine**
-   - Clone this repository: `[ReminderService](https://github.com/Srinu-Bandlamudi/ReminderService)`
+   - Clone this repository: [EmailReminderService](https://github.com/Srinu-Bandlamudi/EmailReminderService)
 
 2. **Install dependencies**
    - Execute `npm install` in the root directory after cloning the repository.
@@ -12,8 +12,8 @@
    - Create a `.env` file in the root directory and add the following environment variables:
      ```plaintext
      PORT=3005
-     EMAIL_PASS=sbbkelttjlmncqib
-     EMAIL_ID=airlineremainder@gmail.com
+     EMAIL_PASS=<YOUR_EMAIL PASS>
+     EMAIL_ID=<YOUR_EMAIL>
      MESSAGE_BROKER_URL='amqp://localhost'
      EXCHANGE_NAME=AIRLINE_BOOKING
      REMINDER_BINDING_KEY=REMINDER_SERVICE
